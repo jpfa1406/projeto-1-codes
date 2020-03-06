@@ -1,0 +1,82 @@
+.body{
+	background-color: #0d202b;
+	color: white;
+}
+
+.imagem{
+	display: flex;
+	justify-content: center;
+	background-color: white;
+	width: 100%;
+	height: 250px
+
+}
+
+.titulo{
+	display: flex;
+	justify-content: flex-start;
+}
+
+.logo{
+	height: 38px;
+	margin: 5px;
+}
+
+#topo {
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+.itens{
+	justify-content: center;
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+
+}
+
+li a {
+	float: left;
+	border-right:1px solid #bbb;
+}
+
+li a :last-child {
+	border-right: none;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	background-color: #0f2d38;
+}
+
+.active {
+	background-color: #4CAF50;
+}
+
+.geral{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.item-tabela{
+	align-content: row;
+	text-align: center;
+	padding: 10px;
+	max-width: 20rem;
+	min-width: 20%
+}
