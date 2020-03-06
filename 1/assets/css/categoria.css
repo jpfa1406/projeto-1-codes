@@ -1,0 +1,111 @@
+.links{
+    color: white;
+	text-decoration: none;
+	font-family: 'Roboto Slab', serif;
+}
+
+.body{
+	background-color: #0d202b;
+	color: white;
+}
+
+.imagem{
+	display: flex;
+	justify-content: center;
+	background-color: white;
+	width: 100%;
+	height: 250px
+
+}
+
+.titulo{
+	display: flex;
+	justify-content: flex-start;
+	font-family: 'Roboto Slab', serif;
+}
+
+.logo{
+	height: 38px;
+	margin: 5px;
+}
+
+#topo {
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+.itens{
+	justify-content: center;
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+
+}
+
+.descricao{
+	font-family: 'Roboto', sans-serif;
+}
+
+.descricao-categoria{
+	font-family: 'Roboto', sans-serif;
+}
+
+li a {
+	float: left;
+	border-right:1px solid #bbb;
+}
+
+li a :last-child {
+	border-right: none;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: 'Roboto Slab', serif;
+}
+
+li a:hover:not(.active) {
+	background-color: #0f2d38;
+}
+
+.active {
+	background-color: #4CAF50;
+}
+
+.geral{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-tabela{
+    display: flex;
+    flex-direction: row;
+    max-width: 40%;
+    padding-bottom: 2rem;
+    padding-left: 5rem;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 3rem;
+    max-width: 50%;
+}
+
+.descricao-categoria{
+    align-content: flex-end;
+}
