@@ -1,12 +1,63 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 .links{
     color: white;
 	text-decoration: none;
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 .body{
 	background-color: #0d202b;
 	color: white;
+	font-size: 1.5rem;
+	margin: 00px 8px;
 }
 
 .imagem{
@@ -22,6 +73,8 @@
 	display: flex;
 	justify-content: flex-start;
 	font-family: 'Roboto Slab', serif;
+    font-size: 48px;
+    margin: 32.16px 0px
 }
 
 .logo{
@@ -32,10 +85,15 @@
 #topo {
 	display: flex;
 	list-style-type: none;
-	margin: 0;
+	margin-top: 0;
 	padding: 0;
 	overflow: hidden;
 	background-color: #333;
+	margin-block-start: 0.5em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
 }
 
 .itens{
@@ -51,6 +109,7 @@
 
 .descricao{
 	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
 }
 
 .descricao-categoria{
@@ -80,7 +139,7 @@ li a:hover:not(.active) {
 }
 
 .active {
-	background-color: #4CAF50;
+	background-color: #103246;
 }
 
 .geral{
@@ -94,8 +153,8 @@ li a:hover:not(.active) {
     display: flex;
     flex-direction: row;
     max-width: 40%;
-    padding-bottom: 2rem;
-    padding-left: 5rem;
+    padding-bottom: 3rem;
+    padding-left: 3rem;
 }
 
 .texto{
@@ -103,9 +162,21 @@ li a:hover:not(.active) {
     flex-direction: column;
     padding-left: 1rem;
     padding-right: 3rem;
-    max-width: 50%;
+    max-width: 70%;
 }
 
 .descricao-categoria{
     align-content: flex-end;
+    font-family: 'Roboto', sans-serif;
+}
+
+.inicio{
+	margin: 2rem;
+	display: flex;
+	flex-direction: row;
+}
+
+h2{
+	font-size: 2rem;
+	font-family: 'Roboto', sans-serif;
 }

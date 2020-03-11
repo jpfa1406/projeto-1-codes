@@ -47,6 +47,12 @@ table {
 	border-spacing: 0;
 }
 
+.links{
+    color: white;
+	text-decoration: none;
+	font-family: 'Roboto Slab', serif;
+}
+
 .body{
 	background-color: #0d202b;
 	color: white;
@@ -59,7 +65,7 @@ table {
 	justify-content: center;
 	background-color: white;
 	width: 100%;
-	height: 250px;
+	height: 250px
 
 }
 
@@ -67,8 +73,7 @@ table {
 	display: flex;
 	justify-content: flex-start;
 	font-family: 'Roboto Slab', serif;
-	font-size: 48px;
-	margin: 32.16px 0px;
+	padding-left: 5rem;
 }
 
 .logo{
@@ -101,17 +106,12 @@ table {
 
 }
 
-.categoria{
-	font-family: 'Roboto Slab', serif;
-}
-
 .descricao{
 	font-family: 'Roboto', sans-serif;
-	display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+}
+
+.descricao-categoria{
+	font-family: 'Roboto', sans-serif;
 }
 
 li a {
@@ -141,18 +141,24 @@ li a:hover:not(.active) {
 }
 
 .geral{
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-left: 5rem;
 }
 
-.item-tabela{
-	align-content: row;
-	text-align: center;
-	padding: 10px;
-	max-width: 20rem;
-	min-width: 20%
-	padding-left: 0;
-	margin-bottom: 3rem;
+.texto{
+    display: flex;
+    flex-direction: column;
+font-family: 'Roboto Slab', serif;
+    padding-left: 1rem;
+    padding-right: 3rem;
+    max-width: 50%;
+    justify-content: space-between;
 }
+
+h2{
+	font-size: 2rem;
+	font-family: 'Roboto', sans-serif;
+}
+
