@@ -77,18 +77,19 @@ table {
 }
 
 #topo {
-	display: flex;
-	list-style-type: none;
-	margin-top: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #333;
-	margin-block-start: 0.5em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
+   	display: flex;
+   	list-style-type: none;
+   	margin-top: 0;
+   	padding: 0;
+   	overflow: hidden;
+   	background-color: #293b45;
+   	margin-block-start: 0.5em;
+   	margin-block-end: 1em;
+   	margin-inline-start: 0px;
+   	margin-inline-end: 0px;
+   	padding-inline-start: 40px;
+   }
+
 
 .itens{
 	justify-content: center;
@@ -130,6 +131,8 @@ li a {
 	padding: 14px 16px;
 	text-decoration: none;
 	font-family: 'Roboto Slab', serif;
+	background-color: #293b45;
+
 }
 
 li a:hover:not(.active) {
