@@ -82,7 +82,7 @@
    	margin: 5px;
    }
 
-   #topo {
+   .topo {
    	display: flex;
    	list-style-type: none;
    	margin-top: 0;
@@ -184,3 +184,10 @@
    .titulo-categoria{
    	padding-bottom: 1rem;
    }
+
+
+   @media (min-width: 361px) {
+   .topo {
+      display: none;
+   }
+}
