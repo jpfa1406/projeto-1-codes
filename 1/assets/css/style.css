@@ -13,12 +13,27 @@
 	height: 250px;
 }
 
+.imagem-projeto {
+	height: 400px;
+	justify-content: center;
+	padding-right: 2rem;
+}
+
 .titulo {
 	display: flex;
 	justify-content: flex-start;
 	font-family: "Roboto Slab", serif;
 	font-size: 48px;
 	margin: 32.16px 0px;
+}
+
+.titulo-projeto {
+	display: flex;
+	justify-content: center;
+	font-family: "Roboto Slab", serif;
+	font-size: 48px;
+	margin: 32.16px 0px;
+	padding-left: 0px;
 }
 
 .titulo-categoria {
@@ -203,9 +218,37 @@ h2 {
 		text-align: center;
 	}
 
+	.titulo-projeto {
+		padding-top: 20px;
+		justify-content: center;
+		font-size: 40px;
+	}
+
 	li a {
 		float: left;
 		border-bottom: 1px solid #bbb;
+	}
+
+	.imagem-projeto {
+		height: 300px;
+		padding-right: 0px;
+	}
+
+	h2 {
+		padding-top: 1rem;
+		font-size: 1.5rem;
+	}
+
+	.texto-projeto {
+		font-size: 15px;
+		margin-top: 0.1rem;
+		max-width: 80%;
+		text-align: center;
+		padding: 0%;
+	}
+
+	.paragrafo-projeto {
+		padding-top: 4px;
 	}
 }
 
