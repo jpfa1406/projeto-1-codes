@@ -63,7 +63,7 @@
 	justify-content: center;
 	display: flex;
 	list-style-type: none;
-	margin: 0;
+	margin: 0.5rem;
 	padding: 0;
 	overflow: hidden;
 	background-color: #333;
@@ -71,6 +71,7 @@
 
 .categoria {
 	font-family: "Roboto Slab", serif;
+	padding-bottom: 1rem;
 }
 
 .descricao {
@@ -119,7 +120,7 @@ li a:hover:not(.active) {
 .item-tabela {
 	align-content: row;
 	text-align: center;
-	padding: 10px;
+	padding: 14px;
 	max-width: 20rem;
 	min-width: 20%;
 	padding-left: 0;
@@ -130,7 +131,7 @@ li a:hover:not(.active) {
 	display: flex;
 	flex-direction: row;
 	max-width: 40%;
-	padding-bottom: 3rem;
+	padding-bottom: 3.5rem;
 	padding-left: 3rem;
 }
 
@@ -174,6 +175,9 @@ h2 {
 }
 
 @media (max-width: 380px) {
+	.qqq{
+		display: none;
+	}
 	.topo {
 		position: absolute;
 		top: -400px;
@@ -202,6 +206,7 @@ h2 {
 	}
 
 	.menu-icon {
+		height: 50px;
 		left: 0px;
 		top: 0px;
 		position: absolute;
@@ -250,6 +255,9 @@ h2 {
 	.paragrafo-projeto {
 		padding-top: 4px;
 	}
+
+	
+
 }
 
 @media (min-width: 376px) {

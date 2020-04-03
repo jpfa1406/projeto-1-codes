@@ -1,39 +1,22 @@
-.geral {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: center;
-}
 
-.item-tabela {
-	display: flex;
-	flex-direction: row;
-	max-width: 40%;
-	padding-bottom: 3rem;
-	padding-left: 3rem;
-}
 
-.descricao-categoria {
-	align-content: flex-end;
-	font-family: "Roboto", sans-serif;
-}
-
-.inicio {
-	margin: 2rem;
-	display: flex;
-	flex-direction: row;
-}
-
-h2 {
-	font-family: "Roboto", sans-serif;
-}
-
-.titulo-categoria {
-	padding-bottom: 1rem;
-}
-
-@media (min-width: 361px) {
-	.topo {
-		display: none;
+@media (max-width: 380px) {
+	.geral{
+		flex-direction: column;
+		justify-content: space-around;
 	}
+
+	.item-categoria{
+		flex-direction: column;
+		padding-left: 0;
+	}
+
+	.texto{
+		padding: 0;
+	}
+
+	.titulo{
+		padding-top: 1.5rem;
+	}
+
 }
